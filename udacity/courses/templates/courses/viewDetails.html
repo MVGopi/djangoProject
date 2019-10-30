@@ -1,0 +1,30 @@
+{% extends 'courses/base.html' %}
+
+{% block content %}
+<div class="container"><br><br>
+	<table class = "table table-bordered">
+		<tr>
+		<th colspan="6"><center><h2>User Details</h2></center></th>
+    	</tr>
+	    <tr>
+			<th>Name</th>
+			<th>Mobile</th>
+			<th>Email</th>
+			<th>Gender</th>
+			<th colspan = "2">Operations
+				<a href="{% url 'addDetails' %}" class="btn btn-info btn-sm">+</a></th>
+		</tr>
+		{% for detail in details %}
+			<tr>
+				<td>{{ detail.name }}</td>
+				<td>{{ detail.mobile }}</td>
+				<td>{{ detail.email }}</td>
+				<td>{{ detail.gender }}</td>
+				<td><a href = "{% url 'editDetails' detail.id %}" class = "btn btn-info btn-sm">Edit</a></td>
+				<td><a href = "{% url 'deleteDetails' detail.id %}" class = "btn btn-sm btn-danger">Delete</a></td>
+			</tr>
+		{% endfor %}
+		
+	</table>
+	</div>
+{% endblock content %}

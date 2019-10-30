@@ -1,0 +1,21 @@
+{% extends 'courses/base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div >
+	<h1 class="text-primary"> Home Page </h1>
+	<img src='/static/images/Crate.png' width="300" height="300">
+	<img src="{% static 'images/Crystal.png' %}" width="300" height="300">
+</div>
+	<div>
+	{% for user in users %}
+		<h2>{{ user.name }}</h2>
+		{% for post in posts %}
+			{% if user.id == post.userId %}
+
+				<h4>{{post.title}}</h4>
+				<p> {{ post.body }}</p>
+			{% endif %}
+		{% endfor %}<hr>
+	{% endfor %}
+	</div>
+{% endblock content %}

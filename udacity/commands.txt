@@ -1,0 +1,1648 @@
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py createsuperuser
+Username (leave blank to use 'iiit-rgukt'): admin
+Email address: prasannaraj.m@apssdc.in
+Password:
+Password (again):
+The password is too similar to the email address.
+Bypass password validation and create user anyway? [y/N]: Y
+Superuser created successfully.
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 11:18:10
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 11:18:22] "GET /admin HTTP/1.1" 301 0
+[29/Oct/2019 11:18:22] "GET /admin/ HTTP/1.1" 302 0
+[29/Oct/2019 11:18:22] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[29/Oct/2019 11:18:23] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[29/Oct/2019 11:18:23] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[29/Oct/2019 11:18:23] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[29/Oct/2019 11:18:23] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[29/Oct/2019 11:18:23] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[29/Oct/2019 11:18:23] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[29/Oct/2019 11:18:36] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1980
+[29/Oct/2019 11:18:36] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[29/Oct/2019 11:19:00] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Oct/2019 11:19:00] "GET /admin/ HTTP/1.1" 200 3042
+[29/Oct/2019 11:19:00] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[29/Oct/2019 11:19:00] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[29/Oct/2019 11:19:00] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[29/Oct/2019 11:19:08] "GET /admin/auth/user/ HTTP/1.1" 200 6617
+[29/Oct/2019 11:19:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 11:19:08] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[29/Oct/2019 11:19:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[29/Oct/2019 11:19:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[29/Oct/2019 11:19:08] "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+[29/Oct/2019 11:19:08] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[29/Oct/2019 11:19:08] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[29/Oct/2019 11:19:08] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[29/Oct/2019 11:19:08] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[29/Oct/2019 11:19:08] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[29/Oct/2019 11:19:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+[29/Oct/2019 11:19:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[29/Oct/2019 11:19:08] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[29/Oct/2019 11:19:08] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[29/Oct/2019 11:19:13] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 13942
+[29/Oct/2019 11:19:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 11:19:13] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[29/Oct/2019 11:19:13] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+[29/Oct/2019 11:19:13] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[29/Oct/2019 11:19:13] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[29/Oct/2019 11:19:13] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+[29/Oct/2019 11:19:13] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12322
+[29/Oct/2019 11:19:13] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[29/Oct/2019 11:19:13] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[29/Oct/2019 11:19:13] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[29/Oct/2019 11:19:13] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[29/Oct/2019 11:19:13] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[29/Oct/2019 11:19:13] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[29/Oct/2019 11:19:13] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+Not Found: /
+[29/Oct/2019 11:40:21] "GET / HTTP/1.1" 404 2043
+[29/Oct/2019 11:40:24] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 13942
+[29/Oct/2019 11:40:43] "GET /admin/password_change/ HTTP/1.1" 200 2773
+[29/Oct/2019 11:41:15] "POST /admin/password_change/ HTTP/1.1" 200 3037
+[29/Oct/2019 11:41:22] "GET /admin/ HTTP/1.1" 200 3042
+[29/Oct/2019 11:41:32] "GET /courses/ HTTP/1.1" 200 626
+[29/Oct/2019 11:51:39] "GET /courses HTTP/1.1" 301 0
+[29/Oct/2019 11:51:39] "GET /courses/ HTTP/1.1" 200 626
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:16:46
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Internal Server Error: /courses/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 5, in home
+    return render(request,"courses/home.html")
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static', expected 'endblock'. Did you forget to register or load this tag?
+[29/Oct/2019 12:20:56] "GET /courses/ HTTP/1.1" 500 147034
+[29/Oct/2019 12:22:05] "GET /courses/ HTTP/1.1" 200 754
+[29/Oct/2019 12:22:05] "GET /static/images/Crate.png HTTP/1.1" 200 3392
+[29/Oct/2019 12:22:05] "GET /static/images/Crystal.png HTTP/1.1" 200 5061
+[29/Oct/2019 12:22:29] "GET /courses/ HTTP/1.1" 200 735
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 18, in <module>
+    from courses import views as courses_view
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 8
+    "body":"django Content"
+          ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 18, in <module>
+    from courses import views as courses_view
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 8
+    "body":"django Content"
+          ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 18, in <module>
+    from courses import views as courses_view
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 8
+    "body":"django Content"
+          ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:34:25
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Internal Server Error: /courses/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 41, in home
+    'posts':post
+NameError: name 'post' is not defined
+[29/Oct/2019 12:34:27] "GET /courses/ HTTP/1.1" 500 64591
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:36:35
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:36:51
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:36:56
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 12:36:58] "GET /courses/ HTTP/1.1" 200 736
+[29/Oct/2019 12:37:03] "GET /courses/ HTTP/1.1" 200 736
+[29/Oct/2019 12:38:16] "GET /courses/ HTTP/1.1" 200 742
+[29/Oct/2019 12:38:17] "GET /courses/ HTTP/1.1" 200 742
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:39:12
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Internal Server Error: /courses/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 41, in home
+    'post':post
+NameError: name 'post' is not defined
+[29/Oct/2019 12:39:24] "GET /courses/ HTTP/1.1" 500 64590
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:39:49
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 12:39:52] "GET /courses/ HTTP/1.1" 200 811
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 12:40:56
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 12:42:17] "GET /courses/ HTTP/1.1" 200 834
+[29/Oct/2019 12:42:17] "GET /courses/ HTTP/1.1" 200 834
+[29/Oct/2019 12:42:18] "GET /courses/ HTTP/1.1" 200 834
+[29/Oct/2019 12:42:18] "GET /courses/ HTTP/1.1" 200 834
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 18, in <module>
+    from courses import views as courses_view
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 33
+    user=[
+        ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 18, in <module>
+    from courses import views as courses_view
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 33
+    users=[
+         ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 18, in <module>
+    from courses import views as courses_view
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 33
+    users=[
+         ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 13:00:22
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 13:00:28
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Internal Server Error: /courses/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 53, in home
+    'posts':post
+NameError: name 'post' is not defined
+[29/Oct/2019 13:00:32] "GET /courses/ HTTP/1.1" 500 64601
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 13:00:50
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Internal Server Error: /courses/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py", line 56, in home
+    return render(request,"courses/home.html",contex)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+[29/Oct/2019 13:00:56] "GET /courses/ HTTP/1.1" 500 146593
+[29/Oct/2019 13:01:26] "GET /courses/ HTTP/1.1" 200 775
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 13:01:59
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 13:02:03] "GET /courses/ HTTP/1.1" 200 1048
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 114, in populate
+    app_config.import_models()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py", line 4
+    classs DummyDetails(models.Model):
+                      ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 436, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+courses.DummyDetails.gender: (fields.E005) 'choices' must be an iterable containing (actual value, human readable name) tuples.
+
+System check identified 1 issue (0 silenced).
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 114, in populate
+    app_config.import_models()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py", line 4, in <module>
+    class DummyDetails(models.Model):
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py", line 9, in DummyDetails
+    gender=models.CharField(max_length=10, choice=Gender_choice)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1039, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'choice'
+
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py runserver
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 114, in populate
+    app_config.import_models()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py", line 4, in <module>
+    class DummyDetails(models.Model):
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py", line 9, in DummyDetails
+    gender=models.CharField(max_length=10, choice=Gender_choice)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1039, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'choice'
+
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 15:23:07
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py makemigrations courses
+Migrations for 'courses':
+  courses\migrations\0001_initial.py
+    - Create model DummyDetails
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py makemigrations migrate
+No installed app with label 'migrate'.
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, courses, sessions
+Running migrations:
+  Applying courses.0001_initial... OK
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 15:24:12
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py", line 2, in <module>
+    from models import DummyDetail
+ModuleNotFoundError: No module named 'models'
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py", line 2, in <module>
+    from model import DummyDetail
+ModuleNotFoundError: No module named 'model'
+
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py runserver
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py", line 2, in <module>
+    from model import DummyDetail
+ModuleNotFoundError: No module named 'model'
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py", line 2, in <module>
+    from .models import DummyDetail
+ImportError: cannot import name 'DummyDetail' from 'courses.models' (C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py)
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py", line 2, in <module>
+    from .model import DummyDetail
+ModuleNotFoundError: No module named 'courses.model'
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py", line 2, in <module>
+    from .models import DummyDetail
+ImportError: cannot import name 'DummyDetail' from 'courses.models' (C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py)
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 77, in raise_last_exception
+    raise _exception[1]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\__init__.py", line 337, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py", line 5, in <module>
+    admin.site.register(DummyDetail)
+NameError: name 'DummyDetail' is not defined
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 15:27:38
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 15:27:44] "GET /admin/ HTTP/1.1" 200 3756
+[29/Oct/2019 15:27:44] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[29/Oct/2019 15:27:44] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[29/Oct/2019 15:27:44] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[29/Oct/2019 15:27:44] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[29/Oct/2019 15:27:45] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[29/Oct/2019 15:27:45] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[29/Oct/2019 15:27:45] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[29/Oct/2019 15:27:45] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[29/Oct/2019 15:27:45] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 15:28:00
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 15:28:04] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 3220
+[29/Oct/2019 15:28:04] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:28:04] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:04] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[29/Oct/2019 15:28:07] "GET /admin/courses/dummydetails/add/ HTTP/1.1" 200 5562
+[29/Oct/2019 15:28:07] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[29/Oct/2019 15:28:07] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:07] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[29/Oct/2019 15:28:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:28:07] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[29/Oct/2019 15:28:44] "POST /admin/courses/dummydetails/add/ HTTP/1.1" 302 0
+[29/Oct/2019 15:28:45] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4630
+[29/Oct/2019 15:28:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:28:45] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[29/Oct/2019 15:28:48] "GET /admin/courses/dummydetails/1/change/ HTTP/1.1" 200 5863
+[29/Oct/2019 15:28:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:28:52] "POST /admin/courses/dummydetails/1/change/ HTTP/1.1" 302 0
+[29/Oct/2019 15:28:52] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4632
+[29/Oct/2019 15:28:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:28:54] "GET /admin/courses/ HTTP/1.1" 200 2481
+[29/Oct/2019 15:28:56] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4419
+[29/Oct/2019 15:28:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:29:07] "GET /admin/courses/ HTTP/1.1" 200 2481
+[29/Oct/2019 15:29:08] "GET /admin/ HTTP/1.1" 200 4422
+[29/Oct/2019 15:29:12] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4419
+[29/Oct/2019 15:29:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:29:20] "GET /admin/courses/ HTTP/1.1" 200 2481
+[29/Oct/2019 15:29:21] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4419
+[29/Oct/2019 15:29:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:29:24] "GET /admin/courses/ HTTP/1.1" 200 2481
+[29/Oct/2019 15:29:25] "GET /admin/courses/dummydetails/add/ HTTP/1.1" 200 5562
+[29/Oct/2019 15:29:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:29:30] "POST /admin/courses/dummydetails/add/ HTTP/1.1" 200 5904
+[29/Oct/2019 15:29:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:29:32] "POST /admin/courses/dummydetails/add/ HTTP/1.1" 200 5904
+[29/Oct/2019 15:29:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:29:35] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4419
+[29/Oct/2019 15:29:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:29:38] "GET /admin/courses/dummydetails/1/change/ HTTP/1.1" 200 5863
+[29/Oct/2019 15:29:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:31:28] "POST /admin/courses/dummydetails/1/change/ HTTP/1.1" 302 0
+[29/Oct/2019 15:31:28] "GET /admin/courses/dummydetails/add/ HTTP/1.1" 200 5816
+[29/Oct/2019 15:31:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 15:31:52] "POST /admin/courses/dummydetails/add/ HTTP/1.1" 302 0
+[29/Oct/2019 15:31:52] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4874
+[29/Oct/2019 15:31:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 15:56:34
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 15:56:37] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4663
+[29/Oct/2019 15:56:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 15:57:26
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 15:57:26] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 15:57:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 16:01:12
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 16:04:46] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 16:04:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:04:47] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 16:04:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:04:49] "GET /courses/ HTTP/1.1" 200 1048
+[29/Oct/2019 16:04:50] "GET /courses/ HTTP/1.1" 200 1048
+[29/Oct/2019 16:04:51] "GET /courses/ HTTP/1.1" 200 1048
+[29/Oct/2019 16:04:51] "GET /courses/ HTTP/1.1" 200 1048
+[29/Oct/2019 16:04:51] "GET /courses/ HTTP/1.1" 200 1048
+[29/Oct/2019 16:04:54] "GET /courses/ HTTP/1.1" 200 1048
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 22
+    path('courses/details',courses_view.dummies,name='dummies')
+       ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 23
+    path('courses/details',courses_view.dummies,name='dummies')
+       ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 23
+    path('courses/details',courses_view.details,name='details')
+       ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 16:17:12
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 16:21:32] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:25:33] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:25:34] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:25:43] "GET /courses/ HTTP/1.1" 200 1048
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 16:46:14
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 24
+    path('courses/addDetails',courses_view.addDetails,name='addDetails')
+       ^
+SyntaxError: invalid syntax
+
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 24
+    path('courses/addDetails',courses_view.addDetails,name='addDetails')
+       ^
+SyntaxError: invalid syntax
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 54, in wrapper
+    fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 23, in check_resolver
+    return check_method()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 399, in check
+    for pattern in self.url_patterns:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 584, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 577, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\ProgramData\Anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\udacity\urls.py", line 24, in <module>
+    path('courses/addDetails',courses_view.addDetails,name='addDetails')
+AttributeError: module 'courses.views' has no attribute 'addDetails'
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2019 - 16:48:39
+Django version 2.2.6, using settings 'udacity.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[29/Oct/2019 16:48:51] "GET /courses/ HTTP/1.1" 200 1048
+[29/Oct/2019 16:49:03] "GET /courses/addDetails HTTP/1.1" 200 1188
+[29/Oct/2019 16:50:24] "GET /courses/addDetails HTTP/1.1" 200 1246
+[29/Oct/2019 16:50:28] "GET /courses/addDetails? HTTP/1.1" 200 1246
+[29/Oct/2019 16:50:55] "GET /courses/addDetails? HTTP/1.1" 200 1252
+[29/Oct/2019 16:51:55] "GET /courses/addDetails? HTTP/1.1" 200 1284
+[29/Oct/2019 16:52:23] "GET /courses/addDetails? HTTP/1.1" 200 1284
+[29/Oct/2019 16:52:33] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:57:17] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:57:18] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:57:18] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:57:19] "GET /courses/details HTTP/1.1" 200 846
+[29/Oct/2019 16:57:27] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 16:57:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:27] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 16:57:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:28] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 16:57:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:28] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 16:57:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:29] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 4636
+[29/Oct/2019 16:57:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:32] "GET /admin/courses/dummydetails/add/ HTTP/1.1" 200 5562
+[29/Oct/2019 16:57:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:35] "POST /admin/courses/dummydetails/add/ HTTP/1.1" 200 5848
+[29/Oct/2019 16:57:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:49] "POST /admin/courses/dummydetails/add/ HTTP/1.1" 302 0
+[29/Oct/2019 16:57:49] "GET /admin/courses/dummydetails/ HTTP/1.1" 200 5054
+[29/Oct/2019 16:57:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[29/Oct/2019 16:57:55] "GET /courses/details HTTP/1.1" 200 958
+[29/Oct/2019 16:58:44] "GET /courses/addDetails HTTP/1.1" 200 1284
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>python manage.py shell
+Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: from courses.models import DummyDetails
+
+In [2]: details=DummyDetails(name="Kalyan",gender="male",mobile="9898989898",email="kalyan@gmail.com")
+
+In [3]: details.save()
+
+In [4]: DummyDetails.object.all()
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-4-92c821ac1e57> in <module>
+----> 1 DummyDetails.object.all()
+
+AttributeError: type object 'DummyDetails' has no attribute 'object'
+
+In [5]: DummyDetails.objects.all()
+Out[5]: <QuerySet [<DummyDetails: Prasanna Raj>, <DummyDetails: P Vinod>, <DummyDetails: Mohan>, <DummyDetails: Kalyan>]>
+
+In [6]: DummyDetails.objects.get(nmae="Prasanna Raj")
+---------------------------------------------------------------------------
+FieldError                                Traceback (most recent call last)
+<ipython-input-6-b0eb416fa422> in <module>
+----> 1 DummyDetails.objects.get(nmae="Prasanna Raj")
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py in manager_method(self, *args, **kwargs)
+     80         def create_method(name, method):
+     81             def manager_method(self, *args, **kwargs):
+---> 82                 return getattr(self.get_queryset(), name)(*args, **kwargs)
+     83             manager_method.__name__ = method.__name__
+     84             manager_method.__doc__ = method.__doc__
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py in get(self, *args, **kwargs)
+    397         keyword arguments.
+    398         """
+--> 399         clone = self.filter(*args, **kwargs)
+    400         if self.query.can_filter() and not self.query.distinct_fields:
+    401             clone = clone.order_by()
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py in filter(self, *args, **kwargs)
+    890         set.
+    891         """
+--> 892         return self._filter_or_exclude(False, *args, **kwargs)
+    893
+    894     def exclude(self, *args, **kwargs):
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py in _filter_or_exclude(self, negate, *args, **kwargs)
+    908             clone.query.add_q(~Q(*args, **kwargs))
+    909         else:
+--> 910             clone.query.add_q(Q(*args, **kwargs))
+    911         return clone
+    912
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py in add_q(self, q_object)
+   1288         # So, demotion is OK.
+   1289         existing_inner = {a for a in self.alias_map if self.alias_map[a].join_type == INNER}
+-> 1290         clause, _ = self._add_q(q_object, self.used_aliases)
+   1291         if clause:
+   1292             self.where.add(clause, AND)
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py in _add_q(self, q_object, used_aliases, branch_negated, current_negated, allow_joins, split_subq, simple_col)
+   1316                     child, can_reuse=used_aliases, branch_negated=branch_negated,
+   1317                     current_negated=current_negated, allow_joins=allow_joins,
+-> 1318                     split_subq=split_subq, simple_col=simple_col,
+   1319                 )
+   1320                 joinpromoter.add_votes(needed_inner)
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py in build_filter(self, filter_expr, branch_negated, current_negated, can_reuse, allow_joins, split_subq, reuse_with_filtered_relation, simple_col)
+   1188         if not arg:
+   1189             raise FieldError("Cannot parse keyword query %r" % arg)
+-> 1190         lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+   1191
+   1192         if not getattr(reffed_expression, 'filterable', True):
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py in solve_lookup_type(self, lookup)
+   1047             if expression:
+   1048                 return expression_lookups, (), expression
+-> 1049         _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+   1050         field_parts = lookup_splitted[0:len(lookup_splitted) - len(lookup_parts)]
+   1051         if len(lookup_parts) > 1 and not field_parts:
+
+C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\query.py in names_to_path(self, names, opts, allow_many, fail_on_missing)
+   1418                     ])
+   1419                     raise FieldError("Cannot resolve keyword '%s' into field. "
+-> 1420                                      "Choices are: %s" % (name, ", ".join(available)))
+   1421                 break
+   1422             # Check if we need any joins for concrete inheritance cases (the
+
+FieldError: Cannot resolve keyword 'nmae' into field. Choices are: email, gender, id, mobile, name
+
+In [7]: DummyDetails.objects.get(name="Prasanna Raj")
+Out[7]: <DummyDetails: Prasanna Raj>
+
+In [8]: DummyDetails.objects.all()
+Out[8]: <QuerySet [<DummyDetails: Prasanna Raj>, <DummyDetails: P Vinod>, <DummyDetails: Mohan>, <DummyDetails: Kalyan>]>
+
+In [9]: exit
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>quit()
+'quit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>
+
+C:\Users\IIIT-rgukt\Desktop\PJ3\Django\udacity>
