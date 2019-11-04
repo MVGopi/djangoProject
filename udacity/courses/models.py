@@ -1,15 +1,12 @@
 from django.db import models
 
 # Create your models here.
-class DummyDetails(models.Model):
-	Gender_choice=(('male','Male'),('female','Female'))
-
+class Details(models.Model):
+	Gender_choise=(('male','Male'),('female','Female'))
 	name=models.CharField(max_length=200)
-	mobile=models.CharField(max_length=20)
-	email=models.CharField(max_length=50)
-	gender=models.CharField(max_length=10, choices=Gender_choice)
-
+	age=models.IntegerField()
+	email=models.EmailField(max_length=100)
+	gender=models.CharField(max_length=50,choices=Gender_choise)
 
 	def __str__(self):
-		return self.name+'@'+self.mobile+'@'+self.email+'@'+self.gender
-		
+		return self.name+' - '+self.email

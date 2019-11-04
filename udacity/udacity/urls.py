@@ -15,13 +15,26 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.contrib.auth import views as auth_views
 from courses import views as courses_view
-
+from users import views as users_view
+from django.urls import path,include
+from django.conf import settings
+from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('courses/',courses_view.home,name='home'),
-    path('courses/details',courses_view.details,name='details'),
-    path('courses/addDetails',courses_view.addDetails,name='addDetails'),
-    path('courses/edit/<int:dummy_id>',courses_view.editDetails, name = 'editDetails'),
-    path('courses/delete/<int:dummy_id>',courses_view.deleteDetails, name = 'deleteDetails'),    
+    path('udacity/',courses_view.home,name='home'),
+    path('udacity/dummy',courses_view.dummydetails,name='dummydetails'),
+    path('udacity/adddetails',courses_view.Adddummies,name='Adddummies'),
+    path('udacity/names',courses_view.names,name='names'),
+    path('udacity/edit/<int:dummy_id>',courses_view.editdetails,name='editdetails'),
+    path('udacity/delete/<int:del_id>',courses_view.deletedetails,name='deletedetails'),
+    path('register/',users_view.register,name='register'),
+    path('login/',auth_views.LoginView.as_view(template_name='users/login.html'),name='login'),
+    path('logout/',auth_views.LogoutView.as_view(template_name='users/logout.html'),name='logout'),
+    path("profile/",users_view.profile,name='profile')
+
 ]
+if settings.DEBUG:
+    urlpatterns +=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+    

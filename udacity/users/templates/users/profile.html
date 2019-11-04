@@ -1,0 +1,47 @@
+{% extends 'courses/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<!-- <div class="container mt-3">
+<h2>{{ user.username}}</h2>
+<img src="{{ user.profile.image.url }}" class="image-fluid img-responsive rounded-circle" width="200" height="200">
+<br>
+<a href="https://prasannarajmallipudi.github.io/port.html" target="if" class="btn btn-light btn-sm" id="click">PrasannaRaj</a>
+<iframe frameborder="0" style="width: 100%; height: 800px;" name="if" id="ifs"></iframe>
+<div id="profile"></div>
+</div>  -->
+<div class="container">
+<h2>{{ user.username }}</h2>
+
+<div class="media col-sm-5 border p-1">
+<img src="{{ user.profile.image.url }}" class="image-fluid img-responsive rounded-circle" width="200" height="175" alt={{user.username}} >
+<div class="media-body mt-3 ml-4" >
+<small>
+<i>
+<b>{{user.first_name}} {{user.last_name}}</b>
+<br>{{user.email}}
+<br>{{user.date_joined}}
+</i>
+</small>
+</div>
+</div>
+
+<div class="col-sm-5 card">
+<div class="card-body">
+<form method="post" enctype="multipart/form-data">
+{% csrf_token %}
+{{ u_form|crispy }}
+{{ p_form|crispy }}
+<input class='btn btn-primary' type="submit" value="submit">
+</form>
+</div>
+
+</div>
+
+</div>
+
+<script>
+$(document).ready(function(){$('#click').click(function(){
+$("#ifs").toggle(1000);
+})});
+</script>
+{% endblock content %}

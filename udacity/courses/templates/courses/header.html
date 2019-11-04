@@ -1,0 +1,57 @@
+<header>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-primary ">
+		  <!-- Brand -->
+		  <a class="navbar-brand" href="#"><img src="/static/imgs/udacity1.png" height="50px" width="60px"></a>
+
+		  <!-- Links -->
+				  <ul class="navbar-nav mr-auto">
+				  	<li class="nav-item">
+				      <a class="nav-link text-white" href="#">About</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link text-white" href="{% url 'home' %}">Home</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link text-white" href="{% url 'dummydetails' %}">Details</a>
+				    </li>
+
+				    <!-- Dropdown -->
+				    <li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+				        courses
+				      </a>
+				      <div class="dropdown-menu">
+				        <a class="dropdown-item text-white" href="#">Courses1</a>
+				        <a class="dropdown-item text-white" href="#">Link 2</a>
+				        <a class="dropdown-item text-white" href="#">Link 3</a>
+				      </div>
+				    </li>
+				   <li class="nav-item">
+				    		<a class="nav-link margin-auto text-white" href="/admin/" >Admin</a>
+				   </li>
+
+				    
+				  </ul>
+				  <ul class="navbar-nav">
+				  	{% if user.is_authenticated %}
+				  		<li class="nav-item">
+				  			<a class="nav-link text-white" href="{% url 'logout' %}">Logout</a>
+				  		</li>
+				  		<li class="nav-item">
+				  			<a class="nav-link text-white" href="{% url 'profile' %}">Profile</a>
+				  		</li>
+				    {% else %}
+				   
+				  		<li class="nav-item">
+				  			<a class="nav-link text-white" href="{% url 'login' %}"><i>Login</i></a>
+				  		</li>
+				 
+				   
+				  		<li class="nav-item">
+				  			<a class="nav-link text-white" href="{% url 'register' %}">Register</a>
+				  		</li>
+				  	{% endif %}
+				  </ul>
+        </nav>
+
+	</header>
